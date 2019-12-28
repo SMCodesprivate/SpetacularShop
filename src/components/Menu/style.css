@@ -1,0 +1,75 @@
+#menu-pc {
+	width: 100%;
+	height: 125px;
+	opacity: .9;
+	display: block;
+    background-image: linear-gradient(to left, #555, #000);
+	background-color: #333;
+}
+#menu-pc ul a li {
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 6px 1px 0px #000;
+	float: left;
+	line-height: 125px;
+	cursor: pointer;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: Burbank Big Condensed;
+	font-weight: 900;
+}
+#menu-pc ul a {
+	float: left;
+}
+#menu-pc ul a li:hover {
+	transition: .5s all linear;
+	background-color: #eee;
+}
+#menu-pc ul {
+	list-style: none;
+	float: right;
+}
+#menu-cell {
+	width: 100%;
+	text-align: center;
+	display: none;
+	background-color: #a53ae2;
+}
+#menu-cell img {
+	margin-top: 40px;
+	width: 300px;
+	cursor: pointer;
+}
+#menu-cell ul li {
+	width: 100%;
+	height: 125px;
+	line-height: 125px;
+	cursor: pointer;
+	font-size: 65px;
+	color: #e04eff;
+	text-shadow: 4px 1px 0px #222;
+	font-family: Burbank Big Condensed;
+	font-weight: 900;
+}
+#menu-cell ul li:hover {
+	transition: .5s all linear;
+	background-color: #9102e2;
+}
+#menu-cell ul {
+	padding-bottom: 50px;
+}
+@media screen and (max-width: 1000px) {
+	#menu-pc {
+		display: none;
+	}
+	#menu-cell {
+		display: block;
+	}
+}
+.logo_menu_pc {
+    float: left;
+    width: 200px;
+    position: absolute;
+    left: 75px;
+    top: 25px;
+}
